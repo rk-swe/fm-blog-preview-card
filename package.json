@@ -1,0 +1,29 @@
+{
+  "name": "blog-preview-card-main",
+  "version": "1.0.0",
+  "description": "This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rk-swe/fm-blog-preview-card.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rk-swe/fm-blog-preview-card/issues"
+  },
+  "homepage": "https://github.com/rk-swe/fm-blog-preview-card#readme",
+  "devDependencies": {
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
