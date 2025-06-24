@@ -167,6 +167,11 @@ body {
   font-weight: var(--fw-extra-bold);
 }
 
+.card-content-title:hover {
+  color: var(--clr-primary);
+  cursor: pointer;
+}
+
 .card-content-description {
   font-size: var(--fs-medium);
   color: var(--clr-grey-500);
