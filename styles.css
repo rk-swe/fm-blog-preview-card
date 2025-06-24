@@ -110,7 +110,7 @@ h6 {
 
 .card {
   padding: var(--sp-300);
-  max-width: 24rem;
+  max-width: 24rem; /* 384px */
 
   background-color: var(--clr-white);
   border-radius: 1.25rem;
