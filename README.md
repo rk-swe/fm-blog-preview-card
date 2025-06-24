@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://github.com/rk-swe/fm-blog-preview-card)
-- Live Site URL: [](https://rk-swe.github.io/fm-blog-preview-card)
+- Solution URL: [https://github.com/rk-swe/fm-blog-preview-card](https://github.com/rk-swe/fm-blog-preview-card)
+- Live Site URL: [https://rk-swe.github.io/fm-blog-preview-card](https://rk-swe.github.io/fm-blog-preview-card)
 
 <!--
 ## My process
