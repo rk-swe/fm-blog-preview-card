@@ -66,12 +66,6 @@ h6 {
   text-wrap: balance;
 }
 
-/* 10. Create a root stacking context */
-#root,
-#__next {
-  isolation: isolate;
-}
-
 @font-face {
   font-family: "Figtree";
   src: url("./assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
@@ -102,8 +96,7 @@ h6 {
 }
 
 body {
-  padding: 0 var(--sp-300);
-
+  padding-inline: var(--sp-300);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -119,7 +112,7 @@ body {
 
 .card {
   padding: var(--sp-300);
-  max-width: 384px;
+  max-width: 24rem;
 
   background-color: var(--clr-white);
   border-radius: 1.25rem;
@@ -144,10 +137,8 @@ body {
 }
 
 .card-content-category {
-  padding-left: var(--sp-150);
-  padding-right: var(--sp-150);
-  padding-top: var(--sp-50);
-  padding-bottom: var(--sp-50);
+  padding-inline: var(--sp-150);
+  padding-block: var(--sp-50);
 
   border-radius: 0.25rem;
   background-color: var(--clr-primary);
