@@ -95,6 +95,10 @@ h6 {
   --sp-150: 0.75rem; /* 12px */
   --sp-100: 0.5rem; /* 8px */
   --sp-50: 0.25rem; /* 4px */
+
+  --fs-large: 1.5rem;
+  --fs-medium: 1rem;
+  --fs-small: 0.875rem;
 }
 
 body {
@@ -110,6 +114,7 @@ body {
   font-family: var(--ff-base);
   font-weight: var(--fw-medium);
   color: var(--clr-grey-950);
+  font-size: var(--fs-medium);
 }
 
 .card {
@@ -123,7 +128,6 @@ body {
   flex-direction: column;
   gap: var(--sp-300);
 
-  letter-spacing: 0px;
   /*box-shadow*/
   /*hover*/
 }
@@ -148,21 +152,23 @@ body {
   border-radius: 0.25rem;
   background-color: var(--clr-primary);
 
-  font-size: 0.875rem;
+  font-size: var(--fs-small);
   font-weight: var(--fw-extra-bold);
+
+  width: fit-content;
 }
 
 .card-content-date {
-  font-size: 0.875rem;
+  font-size: var(--fs-small);
 }
 
 .card-content-title {
-  font-size: 1.5rem;
+  font-size: var(--fs-large);
   font-weight: var(--fw-extra-bold);
 }
 
 .card-content-description {
-  font-size: 1rem;
+  font-size: var(--fs-medium);
   color: var(--clr-grey-500);
 }
 
@@ -171,7 +177,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 0.75rem;
+  gap: var(--sp-150);
 }
 
 .card-author-avatar {
@@ -180,6 +186,6 @@ body {
 }
 
 .card-author-name {
-  font-size: 0.875rem;
+  font-size: var(--fs-small);
   font-weight: var(--fw-extra-bold);
 }
