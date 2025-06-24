@@ -90,9 +90,9 @@ h6 {
   --sp-100: 0.5rem; /* 8px */
   --sp-50: 0.25rem; /* 4px */
 
-  --fs-large: 1.5rem;
-  --fs-medium: 1rem;
-  --fs-small: 0.875rem;
+  --fs-large: 1.5rem; /* 24px */
+  --fs-medium: 1rem; /* 16px */
+  --fs-small: 0.875rem; /* 14px */
 }
 
 body {
